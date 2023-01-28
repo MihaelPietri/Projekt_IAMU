@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menuItems"
+    android:id="@+id/fragment">
+
+    <fragment
+        tools:layout="@layout/fragment_items"
+        android:label="@string/items"
+        android:id="@+id/menuItems"
+        android:name="mihael.pietri.nasa.ItemsFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_asteroids"
+        android:label="@string/asteroids"
+        android:id="@+id/menuAsteroid"
+        android:name="mihael.pietri.nasa.Asteroids" />
+
+    <fragment
+        tools:layout="@layout/fragment_about"
+        android:label="@string/about"
+        android:id="@+id/menuAbout"
+        android:name="mihael.pietri.nasa.AboutFragment" />
+
+    <fragment
+        tools:layout="@layout/fragment_maps"
+        android:label="@string/maps"
+        android:id="@+id/menuMaps"
+        android:name="mihael.pietri.nasa.MapsFragment" />
+</navigation>

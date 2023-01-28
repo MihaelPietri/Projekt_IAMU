@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1005899213463",
+    "project_id": "nasa-a7016",
+    "storage_bucket": "nasa-a7016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005899213463:android:ef9300bca9545b8d1997d2",
+        "android_client_info": {
+          "package_name": "mihael.pietri.nasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005899213463-8o16q7n0n2ls2emq2kdfcp7qj72ugfca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC19L1BQiSlojwsqrA-UMi9JpZX6xMPr4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005899213463-8o16q7n0n2ls2emq2kdfcp7qj72ugfca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
