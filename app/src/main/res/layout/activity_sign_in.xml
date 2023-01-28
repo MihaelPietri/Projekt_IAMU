@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignIn">
-    <TextView
-        android:id="@+id/textWelcome"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="140dp"
-        android:layout_width="wrap_content"
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/welcomeAnim"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="Welcome back"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/emailLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome_bot" />
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="300dp"
         app:boxStrokeColor="@color/yellow"
         app:hintTextColor="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"

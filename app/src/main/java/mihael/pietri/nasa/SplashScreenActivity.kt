@@ -28,8 +28,8 @@ class SplashScreenActivity : AppCompatActivity() {
 
     private fun startAnimations() {
 
-        binding.tvSplash.applyAnimation(R.anim.blink)
-        binding.ivSplash.applyAnimation(R.anim.slide)
+        //binding.tvSplash.applyAnimation(R.anim.blink)
+        //binding.ivSplash.applyAnimation(R.anim.slide)
     }
 
     private fun redirect() {
@@ -40,7 +40,7 @@ class SplashScreenActivity : AppCompatActivity() {
             if (isOnline()){
                 NasaService.enqueue(this)
             }else {
-                binding.tvSplash.text = getString(R.string.no_internet)
+               //binding.tvSplash.text = getString(R.string.no_internet)
                 callDelayed(DELAY){finish()}
             }
         }
