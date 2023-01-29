@@ -37,7 +37,7 @@ class SignIn : AppCompatActivity() {
                         val intent = Intent(this, SplashScreenActivity::class.java)
                         startActivity(intent)
                     } else {
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Sorry, your password or email was incorrect. Please double-check your info.", Toast.LENGTH_SHORT).show()
 
                     }
                 }
