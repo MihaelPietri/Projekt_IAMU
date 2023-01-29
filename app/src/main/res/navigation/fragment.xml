@@ -15,7 +15,7 @@
         tools:layout="@layout/fragment_asteroids"
         android:label="@string/asteroids"
         android:id="@+id/menuAsteroid"
-        android:name="mihael.pietri.nasa.Asteroids" />
+        android:name="mihael.pietri.nasa.AsteroidFragment" />
 
     <fragment
         tools:layout="@layout/fragment_about"

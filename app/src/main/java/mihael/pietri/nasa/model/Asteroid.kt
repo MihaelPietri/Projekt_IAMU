@@ -5,4 +5,5 @@ data class Asteroid(
     val title: String,
     val explanation: String,
     val logo: Int,
+    var isExpandable : Boolean = false
 )

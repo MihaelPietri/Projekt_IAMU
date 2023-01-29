@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import androidx.recyclerview.widget.RecyclerView
 
 
 /**
@@ -14,6 +14,7 @@ import android.view.ViewGroup
  * create an instance of this fragment.
  */
 class AboutFragment : Fragment() {
+
 
 
     override fun onCreateView(
